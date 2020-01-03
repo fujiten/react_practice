@@ -9,7 +9,7 @@ const Button = ({ onClick, text }) => (
   </button>
 )
 
-const App = () => {
+const App = (props) => {
   const [ counter, setCounter ] = useState(0)
   const setToValue = (value) => setCounter(value)
 
@@ -32,3 +32,7 @@ const App = () => {
   )
 }
 
+ReactDOM.render(
+  <App />, 
+  document.getElementById('root')
+)
