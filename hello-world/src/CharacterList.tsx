@@ -31,7 +31,7 @@ const CharacterList: FC<Props> = ({ school, characters }) => (
         </Item>
       ))}
     </Item.Group>
-  </>;
+  </>
 );
 
 export default CharacterList;
